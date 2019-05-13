@@ -1,4 +1,21 @@
+* {box-sizing: border-box;}
+
 .container {
     width: 900px;
     margin: auto;
 }
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column {
+      float: right;
+  }
