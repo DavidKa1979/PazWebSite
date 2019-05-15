@@ -25,6 +25,7 @@ body {
 
 .column {
     float: right;
+    justify-content:space-evenly;
 }
 
 .flexcolumn {
@@ -50,11 +51,11 @@ header {
 
 .menu_home {
     position: absolute;
+    display: block;
     top: 80px;
     right: 150px;
-    max-width: 17px;
-    overflow: hidden; 
-}
+    clip: rect(0px,37px,18px,17px);
+    }
 
 
 ul {
@@ -158,11 +159,35 @@ p {
     border-radius: 0px 0px 20px 0px;
 }
 
-img {
+.up {
     border-radius: 0px 0px 25px 0px;
 }
 
-.back {
-    background-image: url("images/images/small_cube_bg.png");
-    height: 216px;
+.down {
+    position: absolute;
+}
+
+.textdown {
+    color: #575757;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+    position: relative;
+    padding: 0 24px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    right: 4px;
+    display: block;
+}
+
+.ads {
+    position: relative;
+    top:15px;
+}
+
+.map {
+    position: relative;
+right: 150px;
 }
