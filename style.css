@@ -1,9 +1,12 @@
-* {box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
 
 .container {
     width: 900px;
     margin: auto;
     position: relative;
+    top: 0px;
 }
 
 body {
@@ -11,106 +14,150 @@ body {
     text-align: right;
     font-family: 'Arial (Hebrew)', Arial;
     line-height: 1;
+    margin: 0px;
 }
 
 .row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  .column {
-      float: right;
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:rgb(144, 144, 144);
-  }
-  
-  li {
+.column {
     float: right;
-  }
-  
-  li a, .dropbtn {
+}
+
+.flexcolumn {
+    display: flex;
+    flex-direction:column;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;    
+} 
+
+header {
+    background: linear-gradient(180deg,rgb(144,144,144) 85%, rgb(184,184,184) 98%);
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.pazlogo {
+    position: absolute;
+    top: 32px;
+}
+
+.menu_home {
+    position: absolute;
+    top: 80px;
+    right: 150px;
+    max-width: 17px;
+    overflow: hidden; 
+}
+
+
+ul {
+    list-style-type: none;
+    height: 105px;
+    position: relative;
+    right: 143px;
+    top: 65px;
+    margin: 0px;
+}
+
+li {
+    /* margin: 0 143px 0 0; */
+    float: right;
+}
+
+li a,
+.dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover, .dropdown:hover .dropbtn {
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
     background-color: rgb(144, 144, 144);
-  }
-  
-  li.dropdown {
+}
+
+li.dropdown {
     display: inline-block;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: rgb(144, 144, 144);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: right;
-  }
-  
-  .dropdown-content a:hover {
-      background-color:rgb(188, 188, 188);
-    }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+}
 
-  .footer {
+.dropdown-content a:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(144, 144, 144);;
+    background-color: rgb(144, 144, 144);
     color: white;
     text-align: center;
- }
+}
 
- .img-container {
-  position: relative;
-  font-family: Arial;
-  width:293px;
- }
+.img-container {
+    position: relative;
+    top: 30px;
+    margin-right: 14px;
+    margin-bottom: 20px;
+    font-family: Arial;
+    width: 293px;
+}
 
- h3 {
-  padding: 0;
-  margin: 0;
- }
- 
- p {
-   margin: 0px;
-   margin-top: 4px;
- }
+h3 {
+    padding: 0;
+    margin: 0;
+}
 
- .text-block {
-  position: absolute;
-  font-size: 13px;
-  width: 228px;
-  height: 77px;
-  bottom: 15px;
-  right: 15px;
-  background-color: rgb(144, 144, 144);
-  color: white;
-  padding-left: 5px;
-  padding-right: 5px;
+p {
+    margin: px;
+    margin-top: 4px;
+}
+
+.text-block {
+    position: absolute;
+    font-size: 13px;
+    width: 228px;
+    height: 110px;
+    bottom: 8px;
+    right: 8px;
+    background-color: rgba(144, 144, 144, 0.85);
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    border-radius: 0px 0px 20px 0px;
+}
+
+img {
+    border-radius: 0px 0px 25px 0px;
 }
