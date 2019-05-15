@@ -161,3 +161,7 @@ p {
 img {
     border-radius: 0px 0px 25px 0px;
 }
+
+.back {
+    background-image: url ("\small_cube_bg.png")
+}
