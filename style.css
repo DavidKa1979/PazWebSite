@@ -163,5 +163,6 @@ img {
 }
 
 .back {
-    background-image: url ("\small_cube_bg.png")
+    background-image: url("images/images/small_cube_bg.png");
+    height: 216px;
 }
