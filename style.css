@@ -390,6 +390,11 @@ p {
     color: black
 }
 
+.navsidea:hover {
+    text-decoration: underline;
+    color: #005CA0;
+}
+
 .h2 {
     font-size: 15px;
     color: #005ca0;
@@ -534,6 +539,11 @@ b {
 .px13a {
     display: block;
     font-size: 13px;
+}
+
+.px13a:hover {
+    text-decoration: underline;
+    color: #005CA0;
 }
 
 .footerli>.different {
