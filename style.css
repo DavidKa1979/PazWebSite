@@ -356,4 +356,23 @@ color:red;
 }
 
 
+/* form */
 
+.form {
+    background-image: url("images/images/contact_form_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.form2 {
+    background-image: url("images/images/cube_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form3 {
+    background-image: url("images/images/cube_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover
+}
